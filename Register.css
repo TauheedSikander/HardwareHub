@@ -1,0 +1,223 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+
+.container {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.form-section {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #44a000;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-section input, .form-section textarea, .form-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.form-section input::placeholder, .form-section textarea::placeholder {
+    color: #999;
+}
+
+.form-section textarea {
+    resize: none;
+}
+
+.form-section button {
+    background-color: #44a000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-section button:hover {
+    background-color: #388000;
+}
+
+.form-section p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.form-section p a {
+    color: #44a000;
+    text-decoration: none;
+}
+
+.form-section p a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #44a000;
+}
+
+.icons svg {
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        align-items: center;
+    }
+
+    .form-section {
+        width: 90%;
+    }
+  
+}
+.header {
+            position: fixed;
+	    
+	    z-index: 999;
+	    width: 95%;
+	    display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            border-bottom: 1px solid green;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+        }
+        .header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+	.header nav a:hover {
+            color: #398500;
+        }
+        .header .buttons a {
+            margin-left: 15px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .header .buttons .login {
+            background-color: #272727;
+            border: 1px solid #e0e0e0;
+            color: white;
+        }
+	.header .buttons .login:hover {
+            background-color: #4b4b4b;
+	}
+	.header .buttons .register:hover {
+            background-color: #39593a;
+	}
+        .header .buttons .register {
+            background-color: #44a000;
+            color: #fff;
+        }
+
+.footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+	    
+            background-color: white;
+            border-top: 1.5px solid green;
+        }
+        .footer-left {
+            display: flex;
+            align-items: center;
+        }
+        .footer-left img {
+            height: 24px;
+            margin-right: 10px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 15px;
+	    margin-top: 25px;
+        }
+        .footer-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        .footer-right {
+            font-size: 14px;
+            color: #333;
+        }
+        .footer-bottom {
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+            color: #333;
+            background-color: white;
+	    margin-top: -10px;
+        }
+	 .Newsletter input[type="email"] {
+            width: 50%;
+            padding: 10px 80px;
+            margin-bottom: 0px;
+	    margin-top: -8px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .subscribe button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #44a000;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+	    margin-top: -7px;
+        }
+        .subscribe button:hover {
+            background-color: #285f00;
+        }
